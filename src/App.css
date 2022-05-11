@@ -2,12 +2,25 @@ html {
   background-image: url('../src/images/background.png');
   box-sizing: border-box;
   color: white;
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
 }
 
 h1 {
   font-size: 3.5rem;
-  font-weight: 100;
+  font-weight: 500;
   text-align: center;
+}
+
+h2 {
+  border: 0.1rem solid white;
+  border-radius: 0.7rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 1.2rem;
+  text-align: center;
+  width: 60%;
 }
