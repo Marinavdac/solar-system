@@ -2,21 +2,23 @@ html {
   background-image: url('../src/images/background.png');
   box-sizing: border-box;
   color: white;
-  font-family: sans-serif;
+  font-family: Epilogue , sans-serif;
+  font-size: 10px;
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  font-size: 3.5rem;
-  font-weight: 500;
+  font-size: 8rem;
+  font-weight: 600;
+  margin-top: 4rem;
   text-align: center;
 }
 
 h2 {
   border: 0.1rem solid white;
   border-radius: 0.7rem;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 500;
   margin: auto;
   margin-top: 5rem;
