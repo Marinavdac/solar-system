@@ -20,15 +20,10 @@ h2 {
   border-radius: 0.7rem;
   font-size: 3rem;
   font-weight: 500;
-  margin: auto;
-  margin-top: 5rem;
+  margin: 5.7rem auto;
   padding: 1.2rem;
   text-align: center;
   width: 60%;
-}
-
-.planet-article {
-  width: 100%;
 }
 
 .planets-display {
@@ -45,4 +40,34 @@ h2 {
 
 img {
   width: 100%;
+}
+
+.mission-cards {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.mission-card {
+  border: 1px solid white;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 32.8rem;
+  width: 35.5rem;
+}
+
+.card-mission-title {
+  border-bottom: 0.1rem solid white;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4rem;
+  text-align: center;
+}
+
+.card-mission-info {
+  font-size: 2.1rem;
+  text-align: center;
 }
